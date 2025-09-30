@@ -35,7 +35,7 @@ public class WikipediaRevisionReader {
             WikipediaRevisionParser parser = new WikipediaRevisionParser();
             String timestamp = parser.parse(InputStream);
             return timestamp;
-        } catch (MalformedURLException malformedURLException) {
+        } catch (MalformedURLException | URISyntaxException malformedURLException) {
             throw new RuntimeException(malformedURLException);
         }
     }
