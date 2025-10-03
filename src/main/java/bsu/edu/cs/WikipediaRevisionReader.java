@@ -14,11 +14,11 @@ public class WikipediaRevisionReader {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Type the Wikipedia article you wanna check: ");
+        System.out.print("Type the Wikipedia article: ");
         String article = scanner.nextLine().trim();
 
         if (article.isEmpty()) {
-            System.err.println("Oops! You didn’t type an article name.");
+            System.err.println("You didn't type any article.");
             return;
         }
 
