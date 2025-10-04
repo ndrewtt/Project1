@@ -20,7 +20,8 @@ dependencies {
     implementation("org.openjfx:javafx-controls:25")
     implementation("org.openjfx:javafx-graphics:25")
     implementation("org.openjfx:javafx-base:25")
-    implementation("org.slf4j:slf4j-nop:2.0.11")
+    implementation("org.slf4j:slf4j-simple:2.0.13")
+    implementation("org.json:json:20231013")
 }
 
 javafx {
