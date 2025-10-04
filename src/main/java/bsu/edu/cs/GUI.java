@@ -41,7 +41,7 @@ public class GUI extends Application {
             int limit = Math.min(15, revisions.size());
             for (int i = 0; i < limit; i++) {
                 WikipediaRevision rev = revisions.get(i);
-                String display = rev.getUser() + "  " + rev.getTimestamp().toString();
+                String display = rev.getUser() + "  " + rev.getTimestamp();
                 revisionBox.getChildren().add(new Label(display));
             }
 

@@ -18,7 +18,7 @@ public class WikipediaRevisionParserTest {
 
         List<WikipediaRevision> revisions = parser.parseRevisions(testDataStream);
 
-        WikipediaRevision firstRevision = revisions.get(0);
+        WikipediaRevision firstRevision = revisions.getFirst();
 
         Assertions.assertEquals("2025-08-13T22:47:03Z", firstRevision.getUser());
         Assertions.assertEquals("Ernsanchez00", firstRevision.getTimestamp());

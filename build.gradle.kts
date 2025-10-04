@@ -14,9 +14,13 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+    //testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("com.jayway.jsonpath:json-path:2.9.0")
     implementation("net.minidev:json-smart:2.6.0")
+    implementation("org.openjfx:javafx-controls:25")
+    implementation("org.openjfx:javafx-graphics:25")
+    implementation("org.openjfx:javafx-base:25")
+    implementation("org.slf4j:slf4j-nop:2.0.11")
 }
 
 javafx {

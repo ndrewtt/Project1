@@ -3,7 +3,6 @@ package bsu.edu.cs;
 import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
-//import java.net.URLSyntaxException;
 import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
