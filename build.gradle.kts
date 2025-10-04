@@ -25,7 +25,7 @@ dependencies {
 }
 
 javafx {
-    modules("javafx.controls")
+    modules = listOf("javafx.controls", "javafx.fxml")
     version = "25"
 }
 
@@ -34,5 +34,5 @@ tasks.test {
 }
 
 application {
-   mainClass = "edu.bsu.cs222.GUI"
+   mainClass = "edu.bsu.cs.GUI"
 }

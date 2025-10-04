@@ -11,4 +11,7 @@ How to Run:
 
     1. Locate the WikipediaRevisonReader class.
     2. Run the file.
-    3. Enter the title of the Wikipedia article in the console when prompted.
+    3. Enter the title of the Wiki article in the console.
+        Enter "Zappa"
+
+GUI is currently unavailable
