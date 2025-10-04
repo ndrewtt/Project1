@@ -35,7 +35,6 @@ public class GUI extends Application {
             WikipediaRevisionReader reader = new WikipediaRevisionReader();
 
             List<WikipediaRevision> revisions = reader.getRevisions(inputStream.toString());
-
             revisions.sort((a, b) -> b.getTimestamp().compareTo(a.getTimestamp()));
 
             int limit = Math.min(15, revisions.size());
