@@ -41,7 +41,7 @@ public class WikipediaRevisionReader {
         }
     }
 
-    private List<WikipediaRevision> getRevisions(String articleTitle) throws IOException {
+    protected List<WikipediaRevision> getRevisions(String articleTitle) throws IOException {
         String encodedTitle = URLEncoder.encode(articleTitle, StandardCharsets.UTF_8);
         String urlString = "https://en.wikipedia.org/w/api.php?action=query&format=json&prop=revisions" +
                 "&titles=" + encodedTitle +

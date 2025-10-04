@@ -27,3 +27,7 @@ javafx {
 tasks.test {
     useJUnitPlatform()
 }
+
+application {
+   mainClass = "edu.bsu.cs222.GUI"
+}
