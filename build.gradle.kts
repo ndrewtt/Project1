@@ -17,16 +17,16 @@ dependencies {
     //testRuntimeOnly("org.junit.platform:junit-platform-launcher")
     implementation("com.jayway.jsonpath:json-path:2.9.0")
     implementation("net.minidev:json-smart:2.6.0")
-    implementation("org.openjfx:javafx-controls:25")
-    implementation("org.openjfx:javafx-graphics:25")
-    implementation("org.openjfx:javafx-base:25")
+    implementation("org.openjfx:javafx-controls:21")
+    implementation("org.openjfx:javafx-graphics:21")
+    implementation("org.openjfx:javafx-base:21")
     implementation("org.slf4j:slf4j-simple:2.0.13")
     implementation("org.json:json:20231013")
 }
 
 javafx {
     modules = listOf("javafx.controls", "javafx.fxml")
-    version = "25"
+    version = "21"
 }
 
 tasks.test {
@@ -34,5 +34,5 @@ tasks.test {
 }
 
 application {
-   mainClass = "edu.bsu.cs.GUI"
+   mainClass = "bsu.edu.cs.GUI"
 }

@@ -31,10 +31,11 @@ public class GUI extends Application {
     }
 
     private void loadRevisions() {
-        try (InputStream inputStream = new FileInputStream("test.json")) {
+        try {
             WikipediaRevisionReader reader = new WikipediaRevisionReader();
+            // Example article: "Java_(programming_language)"
+            List<WikipediaRevision> revisions = reader.getRevisions("Java_(programming_language)");
 
-            List<WikipediaRevision> revisions = reader.getRevisions(inputStream.toString());
             revisions.sort((a, b) -> b.getTimestamp().compareTo(a.getTimestamp()));
 
             int limit = Math.min(15, revisions.size());
