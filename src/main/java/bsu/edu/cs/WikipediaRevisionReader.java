@@ -13,11 +13,11 @@ public class WikipediaRevisionReader {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Type the Wikipedia article: ");
+        System.out.print("Type the Wikipedia article you wish to know more about: ");
         String article = scanner.nextLine().trim();
 
         if (article.isEmpty()) {
-            System.err.println("You didn't type any article.");
+            System.err.println("You didn't type any article");
             return;
         }
 
@@ -26,7 +26,7 @@ public class WikipediaRevisionReader {
             List<WikipediaRevision> revisions = reader.getRevisions(article);
 
             if (revisions.isEmpty()) {
-                System.err.println("No Wikipedia page found for \"" + article + "\".");
+                System.err.println("Sorry, we couldn't find anything for \"" + article + "\".");
                 return;
             }
 

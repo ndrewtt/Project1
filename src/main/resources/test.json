@@ -1,0 +1,39 @@
+{
+  "continue": {
+    "rvcontinue": "20250811022446|1305270178",
+    "continue": "||"
+  },
+  "query": {
+    "redirects": [
+      {
+        "from": "Zappa",
+        "to": "Frank Zappa"
+      }
+    ],
+    "pages": {
+      "10672": {
+        "pageid": 10672,
+        "ns": 0,
+        "title": "Frank Zappa",
+        "revisions": [
+          {
+            "user": "Ernsanchez00",
+            "timestamp": "2025-08-13T22:47:03Z"
+          },
+          {
+            "user": "Ernsanchez00",
+            "timestamp": "2025-08-13T22:46:33Z"
+          },
+          {
+            "user": "ArguaBILL",
+            "timestamp": "2025-08-13T20:25:31Z"
+          },
+          {
+            "user": "Acroterion",
+            "timestamp": "2025-08-11T02:25:16Z"
+          }
+        ]
+      }
+    }
+  }
+}
