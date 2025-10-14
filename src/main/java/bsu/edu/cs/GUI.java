@@ -35,7 +35,6 @@ public class GUI extends Application {
         VBox root = new VBox(10, header, articleField, queryButton, scrollPane);
         root.setPadding(new Insets(10));
 
-        // Initial placeholder message
         revisionBox.getChildren().add(new Label("Enter the name of your article and press FETCH to begin"));
 
         Scene scene = new Scene(root, 800, 600);
